@@ -1,39 +1,4 @@
-/*  TMP36 temperature sensor demonstration sketch
- * 
- * This sketch reads the the voltage of the TMP36 sensor output pin.
- * It then does a caclulation to convert this raw reading into a temperature.
- * 
- * This sketch was written for Arduino Step by Step by Peter Dalmaris.
- * 
- * Components
- * ----------
- *  - Arduino Uno
- *  - TMP36 temperature sensor
- *  
- *  Libraries
- *  ---------
- *  NONE
- *
- * Connections
- * -----------
- * 
- * As you look at the sensor with the label facing you, the left most pin is #1
- * 
- *  Break out    |    Arduino Uno
- *  -----------------------------
- *      1        |         5V
- *      2        |         A0
- *      3        |         GND
- *      
- * 
- * Other information
- * -----------------
- * 
- * Datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
- * 
- *  Created on October 8 2016 by Peter Dalmaris
- * 
- */
+
 
 int sensorPin = 0; // The reading is obtained from analog pin 0 (A0)
 float supply_voltage = 5; // 3.3; //If you are useing a 3.3V supply voltage, change this accordingly.
