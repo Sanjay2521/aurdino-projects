@@ -1,38 +1,4 @@
-/*  Digital sound sensor demo sketch
- * 
- * This sketch detects loud noises using a digital sound sensor.
- * 
- * When the sensor detects a loud noise, it sends a message to the 
- * serial monitor.
- * 
- * This sketch was written for Arduino Step by Step by Peter Dalmaris.
- * 
- * Components
- * ----------
- *  - Arduino Uno
- *  - Digital sound sensor
- *  
- *  Libraries
- *  ---------
- *  - None
- *
- * Connections
- * -----------
- *  Break out    |    Arduino Uno
- *  -----------------------------
- *      +        |      5V
- *      G        |      GND
- *      D0       |      A0
- 
- * 
- * Other information
- * -----------------
- *  This code is useful if you want to do things like detect a knock on a door,
- *  hands clapping, etc.
- *  
- *  Created on October 14 2016 by Peter Dalmaris
- * 
- */
+
  
 int soundDetectedPin = 10;          // Use Pin 10 as our Input
 int soundDetectedVal = HIGH;        // This is where we record our Sound Measurement
